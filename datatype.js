@@ -1,6 +1,6 @@
 //primitive datatype - string, boolean, int, bigint, null, undefinred
 
-//derieved datatype - array, object,
+//derieved datatype - array, object, function
 
 
 j=5;
@@ -14,3 +14,13 @@ console.log(5+6);
 let op=null;
 console.log(typeof(op));
 
+
+fruits= {
+    "mango":"yellow",
+    "guava":"green",
+    "watermelon":22,
+    85:"kai"
+}
+
+console.log(fruits);
+console.log(typeof(fruits));
