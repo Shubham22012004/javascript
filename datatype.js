@@ -14,7 +14,7 @@ console.log(5+6);
 let op=null;
 console.log(typeof(op));
 
-
+// adding object  
 fruits= {
     "mango":"yellow",
     "guava":"green",
@@ -24,3 +24,10 @@ fruits= {
 
 console.log(fruits);
 console.log(typeof(fruits));
+
+// adding function in js
+
+function shu(){
+    console.log(5+6);
+}
+console.log(shu())
