@@ -1,3 +1,8 @@
+//primitive datatype - string, boolean, int, bigint, null, undefinred
+
+//derieved datatype - array, object,
+
+
 j=5;
 console.log(typeof j);
 
@@ -8,3 +13,4 @@ console.log(5+6);
 
 let op=null;
 console.log(typeof(op));
+
