@@ -1,3 +1,6 @@
-let s=document.querySelector("heading");
-let j=s.setAttribute("class","new-heading");
-console.log(j);
+let btn=document.createElement('button');
+btn.textContent="heool what you want to do";
+console.log(btn);
+
+let body = document.querySelector('body');
+body.append(btn);
