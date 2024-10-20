@@ -1,3 +1,6 @@
-let s=document.querySelector("heading");
-let j=s.setAttribute("class","new-heading");
-console.log(j);
+let btn=document.createElement('button');
+btn.textContent="click me";
+btn.style.cssText=`background-Color:red; color:white; font-Size:30px`;
+
+let body = document.querySelector('body');
+body.prepend(btn);

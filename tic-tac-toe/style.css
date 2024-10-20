@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+  background-color: rgb(248, 179, 95);
+}
+
+.container{
+  height: 70vh;
+  /* width: 70vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2vmin;
+}
+
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border: 2px solid rgba(14, 86, 128, 0.7);
+  color: red;
+  font-size: 40px;
+  font-weight: 600;
+  box-shadow: 3px 3px rgba(13, 214, 60, 0.5);
+  background-color: rgb(191, 153, 227);
+}
+.new-game{
+  border: 2px solid rgb(43, 202, 15);
+  height: 25px;
+  width: 100px;
+  color: blueviolet;
+  border-radius: 20px;
+  background-color: rgb(249, 197, 160);
+}
+.reset-btn{
+  border: 2px solid rgb(43, 202, 15);
+  height: 25px;
+  width: 100px;
+  color: blueviolet;
+  border-radius: 20px;
+  background-color: rgb(249, 197, 160);
+}
+#msg{
+  font-size: 30px;
+  color:#ffffc7;
+}
+.msg-container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: rgb(245, 241, 233);/*this class will show result after winning the game*/ 
+}
+.hide{
+  display: none;/*initially there in no winner*/
+}
