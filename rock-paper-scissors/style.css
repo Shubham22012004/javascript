@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  background-color: #eb9292;
+  text-align: center;
+}
+h1{
+  background-color: darkseagreen;
+  color: rgb(47, 12, 118);
+}
+.elements{
+  margin-top: 30px;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.box{
+  height: 30vmin;
+  width: 200px;
+  border: 1px solid black;
+}
+.box button{
+  height: 100%;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+.result{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.result .cresult, .mresult{
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+.msg{
+  height: 30px;
+  background-color: aliceblue;
+  margin-bottom: 20px;
+  width: 300px;
+  justify-self: center;
+}
